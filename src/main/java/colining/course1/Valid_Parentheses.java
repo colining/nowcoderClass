@@ -1,11 +1,11 @@
-package colining;
+package colining.course1;
 
 import java.util.Stack;
 
 /**
  * Created by colin on 2017/7/22.
  */
-public class Valid_Parenthese {
+public class Valid_Parentheses {
     /*
     三种不同的括弧，使用栈会比较的快
      */
@@ -67,7 +67,8 @@ public class Valid_Parenthese {
     }
 
     /*
-    Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring.
+    Given a string containing just the characters '(' and ')',
+    find the length of the longest valid (well-formed) parentheses substring.
 
     For "(()", the longest valid parentheses substring is "()", which has length = 2.
 
@@ -75,7 +76,7 @@ public class Valid_Parenthese {
      */
 
     /*
-    字符串的典型提醒，给定某个条件，让求最长；
+    字符串的典型体型，给定某个条件，让求最长；
     抓住一个核心，通过一个dp数组，记录以每个位置为止的
     最长子串，后面的子串取决于前面的，可以通过dp数组得到
     用例参考：()(()())

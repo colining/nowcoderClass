@@ -1,6 +1,4 @@
-package colining;
-
-import sun.misc.resources.Messages_pt_BR;
+package colining.course1;
 
 import java.util.HashMap;
 

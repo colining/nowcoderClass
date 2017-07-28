@@ -1,4 +1,4 @@
-package colining;
+package colining.course1;
 
 import java.util.HashMap;
 

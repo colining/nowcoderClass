@@ -1,4 +1,4 @@
-package colining;
+package colining.course1;
 
 /**
  * Created by colin on 2017/7/20.
@@ -59,9 +59,9 @@ public class Cards {
 
     /*
     这个比较难以理解，他是指当前选手为后手所能得到的最大值
-    但是此时，主动权不在他，而在于先手，先手一定会拿起这样一张牌，
+    但是此时，主动权不在他，而在于先手，先手一定会拿起这样一张牌:
     使得你下次作为先手时，所能取得的最大值最小；
-    加入当前start == end ，说明就剩下一张牌，然后你还是后手，
+    假如当前start == end ，说明就剩下一张牌，然后你还是后手，
     然后你自然是拿不到牌了
      */
     private static int second(int[] array, int start, int end) {
