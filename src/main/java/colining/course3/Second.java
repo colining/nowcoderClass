@@ -1,7 +1,5 @@
 package colining.course3;
 
-import java.net.HttpRetryException;
-
 /**
  * Created by colin on 2017/8/10.
  */
